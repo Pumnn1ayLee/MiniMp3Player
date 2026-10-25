@@ -11,6 +11,7 @@
 #include <algorithm>
 #include <commdlg.h>
 #pragma comment(lib, "Comdlg32.lib")
+#pragma comment(linker,"/SUBSYSTEM:windows /ENTRY:mainCRTStartup")
 
 #include "imgui.h"
 #include "imgui_impl_win32.h"
